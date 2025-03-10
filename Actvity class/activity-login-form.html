@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <h1>Login Window</h1>
+    <form name="login" method="post" action="loginScript">
+        <table>
+            <tr>
+                <td>User Name: </td>
+                <td><input type="text" name="userName" size="20"></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td ><input type="password" name="password" size="20"></td>
+            </tr>
+            <tr >
+                <td >Logging in from:</td>
+                <td style="display: inline-flex;">
+                <div>
+                    <input type="radio" name="from" value="home" checked="checked"> Home<br>
+                    <input type="radio" name="from" value="office"> Office<br>
+                    <input type="radio" name="from" value="university"> University<br>
+                </div>
+               
+               <div>
+                    <input type="checkbox" name="from" value="Math" checked="checked"> Math<br>
+                    <input type="checkbox" name="from" value="Physics"> Physics<br>
+                    <input type="checkbox" name="from" value="Physics"> Physics
+               </div>
+            </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="button" name="login" value="Log me in">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

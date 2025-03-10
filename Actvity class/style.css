@@ -1,0 +1,23 @@
+*{
+    font-style: italic;
+}
+.h pre{
+    color: red;
+}
+.global{
+    color:rgb(45, 153, 196);
+}
+#id1{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+.global ins{
+    font-weight: bolder;
+}
+h1,h2{
+    color: rgb(61, 128, 128);
+}
+div.h + b {
+    font-size: x-large;
+    color: rgb(248, 10, 189);
+}

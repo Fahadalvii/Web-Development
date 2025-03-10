@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order List</title>
+    <style>
+        #container{
+            display:flex;
+            width: 100%;
+        }
+        #left-panel,#right-section {
+            padding: 20px;
+            width: 50%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="left-panel" style="background-color: chocolate;">
+            <ol>
+                <li>Web Dev</li>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Video Gaming</li>
+                <li>Programing</li>
+            </ol>
+        </div>
+        <div id="right-section" style="background-color: rgb(205, 243, 243); display: flex; flex-direction: row-reverse;">
+            <ol type="A">
+                <li>Web Dev</li>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Video Gaming</li>
+                <li>Programing</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div id="container">
+        <div id="left-panel" style="background-color: aqua; display: flex; flex-direction: row-reverse;">
+            <ol type="a">
+                <li>Web Dev</li>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Video Gaming</li>
+                <li>Programing</li>
+            </ol>
+        </div>
+        <div id="right-section" style="background-color: rgb(152, 202, 34);">
+            <ol type="i">
+                <li>Web Dev</li>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Video Gaming</li>
+                <li>Programing</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
